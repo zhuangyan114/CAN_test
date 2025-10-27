@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\STM32\project\CAN_test\MDK-ARM\CAN_test\CAN_test.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="TargetSpeed" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="TargetSpeed" Address="0x2000000C" Type="static float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-5.4976e+11" YMaxSampled="300" YAvgSampled="-3.66712e+08" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="50" MaxValue="-2147483648" File="D:\STM32\project\CAN_test\MDK-ARM/../Core/Src/freertos.c" DrawStyle="0" NameWithParents="TargetSpeed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Speed_rpm" Address="0x20000096" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-338" YMaxSampled="18483" YAvgSampled="73.0391" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="50" MaxValue="32767" File="D:\STM32\project\CAN_test\MDK-ARM/../MDK-ARM/GM6020.h" DrawStyle="0" NameWithParents="GM_Statu[0].Speed_rpm" />
+            </Symbol>
+            <Symbol>
+                <Options Name="MechanicalAngle" Address="0x20000014" Type="static short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-11782" YMaxSampled="8191" YAvgSampled="2550.78" Offset="10" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="2000" MaxValue="32767" File="D:\STM32\project\CAN_test\MDK-ARM/../Core/Src/freertos.c" DrawStyle="0" NameWithParents="MechanicalAngle" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Mechanical_Angle" Address="0x20000094" Type="unsigned short" TypeID="7" Size="2" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="46352" YAvgSampled="2775.92" Offset="12" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="2000" MaxValue="65535" File="D:\STM32\project\CAN_test\MDK-ARM/../MDK-ARM/GM6020.h" DrawStyle="0" NameWithParents="GM_Statu[0].Mechanical_Angle" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
